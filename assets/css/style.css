@@ -236,5 +236,56 @@
     color:#3b82f6;
     font-size:56px;
   }
+
+  @media(max-width:768px){
+
+  .hero-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+  
+  .hero-photo{
+    max-width:280px;
+    margin:auto;
+  }
+  
+  .hero-buttons{
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .navbar .container{
+    flex-direction:column;
+    gap:10px;
+  }
+  
+  .navbar nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .navbar nav a{
+    margin:8px;
+  }
+  
+  .about-grid{
+    grid-template-columns:1fr;
+  }
+  
+  .about-grid img{
+    width:60%;
+    margin:auto;
+  }
+  
+  .hero-text h1{
+    font-size:40px;
+  }
+  
+  .hero-text p{
+    font-size:16px;
+  }
+  
+  }
   
 }
