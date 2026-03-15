@@ -3,38 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Exam</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js" defer></script>
   
     <!-- Primary Meta Tags -->
     <title>Your Name - Frontend Web Developer</title>
-  
-    <meta name="title" content="Your name - Frontend Web Developer">
-    <meta name="description"
-      content="Your name - Passionate Frontend Web Developer creating beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta name="keywords" content="Your Name, Web Developer, Frontend Developer, Portfolio, Blog, Tech Insights">
-    <meta name="author" content="Your Name">
-  
-    <!-- Open Graph Meta Tags / Facebook -->
-    <meta property="og:title" content="Your Name - Frontend Web Developer">
-    <meta property="og:description"
-      content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta property="og:image" content="assets/images/banner.webp">
-    <meta property="og:url" content="/">
-    <meta property="og:type" content="website">
-  
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Your Name - Frontend Web Developer">
-    <meta name="twitter:description"
-      content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
-    <meta name="twitter:image" content="assets/images/banner.webp">
-  
-  
-  
-    <!-- Google Fonts: Rubik -->
-    <link href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap" rel="stylesheet">
   
     <!-- Stylesheets -->
     <link href="assets/css/aos.css" rel="stylesheet">
@@ -44,33 +18,22 @@
     <link href="assets/css/style.css" rel="stylesheet">
   
     <!-- Preload Important resources -->
-    <link href="assets/css/aos.css" rel="preload" as="style">
+    <!-- <link href="assets/css/aos.css" rel="preload" as="style">
     <link href="assets/css/owl.carousel.min.css" rel="preload" as="style">
     <link href="assets/css/bootstrap.min.css" rel="preload" as="style">
     <link href="assets/css/bootstrap-icons.min.css" rel="preload" as="style">
-    <link href="assets/css/style.css" rel="preload" as="style">
-  
-    <!-- MS-Clarity Analytics -->
-  
-    <!-- This code is for integrating Microsoft Clarity analytics into a webpage. Here's a breakdown of what each part of the code does:
-    (function (c, l, a, r, i, t, y) { ... })(window, document, "clarity", "script", "ld2h640kif");:
-    This is an immediately invoked function expression (IIFE) that takes several parameters (c, l, a, r, i, t, y) and immediately executes the function with specific arguments (window, document, "clarity", "script", "ld2h640kif").
-    The purpose of this IIFE is to encapsulate the code and prevent any variable names used within it from conflicting with global variables.
-    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };:
-    This line checks if the c[a] property exists. If it does not exist, it creates an empty array c[a].q and assigns it to c[a].
-    It then defines c[a] as a function that pushes its arguments into the c[a].q array. This function is used for queuing up analytics events.
-    t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;:
-    This line creates a new script element (` -->
+    <link href="assets/css/style.css" rel="preload" as="style"> -->
+
   
   
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
         c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
         t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
         y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "ld2h640kif");
     </script>
-  
+   -->
   
   
     <style>
@@ -96,337 +59,214 @@
         }
       }
     </style>
-  
-  
-    <!-- JavaScript -->
-    <script src="assets/js/aos.js" defer></script>
-    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
-    <script src="assets/js/owl.carousel.min.js" defer></script>
-    <script src="assets/js/bootstrap.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
-    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
-    <script src="assets/js/script.js" defer></script>
-    
-    
-</head>
-<body>
-    <nav class="navbar">
-        <div class="max-width">
-            <h1 class="logo"><a href="#"><span class=logo_signature>< Betty Dang/></span> </a></h1>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
 
-                <li><button id="colorBtn"><img id="switcher" src="/assets/images/sun.svg" width="30px" height="30px"/></button></li>
-            </ul>
-        </div>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+  <div class="container">
+
+    <h1 class="logo">Betty Dang</h1>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="image">
-                    <img src="/assets/images/homepage.jpg" alt="Image" width="600" height="400">
-                </div>
-                <h4 class="text-1">Hello, my name is</h4>
-                <h2 class="text-2">Betty Dang</h2>
-                <div class="dev"><img src="/assets/images/stars3.svg" width="20px" height="20px">FullStack Developer</div>
-                <h3 class="text-3">
-                    Full-Stack Developer passionate about building modern web applications with a strong focus on SQL, databases, and backend systems.
-                </h3>
-                <a href="https://www.linkedin.com/in/betty-dang-prog/" class="btn">Contact Me</a>
-                <a href="#about" class="btn btnRed">About Me</a>
-            </div>
-            <div class="Clients-logos">
-                <!-- <a class="Weblogo" href="https://www.youtube.com/">
-                    <img class="weblogo2" alt="youtube" src="/assets/images/youtube.svg" width="50x" height="50x" >
-                  </a>    
-                  <a class="Weblogo" href="https://www.instagram.com/" >
-                    <img class="weblogo2" alt="instagram" src="/assets/images/ig.svg" width="50x" height="50x" >
-                  </a>  
-                  <a class="Weblogo" href="https://discord.com/" >
-                    <img class="weblogo2" alt="discord" src="/assets/images/discord.svg" width="50x" height="50x" >
-                  </a>  
-                  <a class="Weblogo" href="https://twitter.com/" >
-                    <img class="weblogo2" alt="twitter" src="/assets/images/x.svg" width="50x" height="50x" >
-                  </a>   -->
-                  <a class="Weblogo" href="https://github.com/BettyDang" >
-                    <img class="weblogo2" alt="github" src="/assets/images/github.svg" width="50x" height="50x" >
-                  </a>  
-                  <a class="Weblogo" href="https://www.linkedin.com/in/betty-dang-prog/" >
-                    <img class="weblogo2" alt="linkedin" src="/assets/images/linkedin_icon.svg" width="50x" height="50x" >
-                  </a>  
-            </div>
-        </div>
+  </div>
+</header>
 
-    </section>
+<!-- HERO -->
 
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="/assets/images/team3.jpg" alt="Betty Dang">
-                </div>
-                <div class="column right">
-                    <p>Hey there, I'm <strong>Betty Dang</strong>, I am a Full-Stack Developer and Computer Science student at LaSalle College in Montreal with a passion for building modern, 
-                        efficient web applications. My development journey began with HTML5 and front-end technologies, 
-                        and has since evolved into full-stack development involving database design, 
-                        backend systems, and dynamic user interfaces.
-                    </p>
-                    <p>
-                        I work with technologies including JavaScript, Java, PHP, C#, SQL, HTML, CSS, Bootstrap,
-                         and modern development tools to create scalable and user-focused applications. 
-                         Through academic projects such as ShopEasy, an e-commerce web application, 
-                         I have gained hands-on experience designing relational databases, 
-                         implementing backend functionality using Java and JDBC,
-                         and developing administrative interfaces for managing application data.
-                    </p>
-                    <p>
-                        Before transitioning into software development, 
-                        I worked in healthcare where I developed strong analytical thinking, precision, 
-                        and problem-solving abilities—skills that now support my approach to building reliable and well-structured software solutions.
-                    </p>
+<section class="hero">
+
+<div class="container hero-grid">
+
+<div class="hero-text">
+
+<h4>Hello, I'm</h4>
+<h1>
+    <span id="typing-name"></span>
+</h1>
+
+<p>
+Full-Stack Developer passionate about building modern web applications,
+with a strong focus on SQL databases, backend systems and scalable web architecture.
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://github.com/BettyDang" class="btn">GitHub</a>
+
+<a href="https://www.linkedin.com/in/betty-dang-prog/" class="btn-outline">
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+<img src="assets/images/homepage.jpg" alt="Betty Dang" class="hero-photo">
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container about-grid">
+
+<img src="assets/images/Me.jpg">
+
+<div>
+
+<h2>About Me</h2>
+
+I work with technologies including JavaScript, Java, PHP, C#, SQL, HTML, CSS, Bootstrap,
+and modern development tools to create scalable and user-focused applications. 
+Through academic projects such as ShopEasy, an e-commerce web application, 
+I have gained hands-on experience designing relational databases, 
+implementing backend functionality using Java and JDBC,
+and developing administrative interfaces for managing application data.
+</p>
+<p>
+Before transitioning into software development, 
+I worked in healthcare where I developed strong analytical thinking, precision, 
+and problem-solving abilities—skills that now support my approach to building reliable and well-structured software solutions.
+</p>
 
 
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
 
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My Projects</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <img src="/assets/images/projects/web-development-banner-png.jpeg">
-                    <div class="box">
-                        <h3 class="text">Web Design</h3>
-                        <p class="text">I create stunning and responsive designs for websites.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/projects/images.jpeg">
-                    <div class="box">
-                        <h3 class="text">Web Developer</h3>
-                        <p class="text">Coding is one of the most important hard skills required of a web developer!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/assets/images/projects/pfpfinder-banner.webp">
-                    <div class="box">
-                        <h3 class="text">App Finder</h3>
-                        <p class="text">A Applications that help you find profile pictures easier.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
 
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My Skills</h2>
-            <div class="skills-content">
-                <div class="center">
-                <p class="text">Here are some of the technologies I'm proficient in:</p>
-                </div>
-                <div class="logos">
-                    <div class="row justify-content-center">
-                        <div class=" col-md-2 col-sm-6">
-                    <div class="logobox card">
-                    <a class="Weblogo" href="https://www.css3.info/">
-                        <img class="weblogo2" alt="css" src="/assets/images/skills/CSS.svg" width="50x" height="50x" >
-                    </a> 
-                        <p class="text4">CSS</p>
-                        </div>
-                    </div> 
-                    <div class=" col-md-2 col-sm-6">  
-                    <div class="logobox card"> 
-                      <a class="Weblogo" href="https://devdocs.io/c/" >
-                        <img class="weblogo2" alt="c language" src="/assets/images/skills/C.svg" width="50x" height="50x" >
-                    </a> 
-                    <p class="text4">C</p>
-                    </div>
-                    </div>
-                    <div class="col-md-2 col-sm-6">
-                        <div class="logobox card">      
-                      <a class="Weblogo" href="https://getbootstrap.com/" >
-                        <img class="weblogo2" alt="Bootstap" src="/assets/images/skills/Bootstrap.svg" width="50x" height="50x" >
-                    </a> 
-                        <p class="text4">Bootstap</p>
-                        </div>
-                    </div>
-                    <div class=" col-md-2 col-sm-6">
-                        <div class="logobox card">   
-                      <a class="Weblogo" href="https://www.javascripttutorial.net/" >
-                        <img class="weblogo2" alt="javascript" src="/assets/images/skills/JS.svg" width="50x" height="50x" >
-                    </a> 
-                        <p class="text4">JavaScript</p>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-6">
-                        <div class="logobox card"> 
-                      <a class="Weblogo" href="https://www.w3schools.com/html/" >
-                        <img class="weblogo2" alt="html" src="/assets/images/skills/HTML.svg" width="50x" height="50x" >
-                    </a> 
-                        <p class="text4">HTML</p>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-6">
-                    <div class="logobox card"> 
-                        <a class="Weblogo" href="https://ejs.co/" >
-                          <img class="weblogo2" alt="EJS" src="/assets/images/skills/EJS.svg" width="50x" height="50x" >
-                      </a> 
-                          <p class="text4">EJS</p>
-                    </div>
-                      </div>
-                      <div class="col-md-2 col-sm-6">
-                      <div class="logobox card"> 
-                        <a class="Weblogo" href="https://expressjs.com/" >
-                          <img class="weblogo2" alt="ExpressJS" src="/assets/images/skills/ExpressJS.svg" width="50x" height="50x" >
-                      </a> 
-                          <p class="text4">ExpressJS</p>
-                      </div>
-                      </div>
-                      <div class=" col-md-2 col-sm-6">
-                      <div class="logobox card"> 
-                        <a class="Weblogo" href="https://www.mongodb.com/" >
-                          <img class="weblogo2" alt="MongoDB" src="/assets/images/skills/MongoDB.svg" width="50x" height="50x" >
-                      </a> 
-                          <p class="text4">MongoDB</p>
-                      </div>
-                      </div>
-                      <div class=" col-md-2 col-sm-6">
-                      <div class="logobox card"> 
-                        <a class="Weblogo" href="https://nodejs.org/" >
-                          <img class="weblogo2" alt="NodeJS" src="/assets/images/skills/NodeJS.svg" width="50x" height="50x" >
-                      </a> 
-                          <p class="text4">NodeJS</p>
-                      </div>
-                      </div> 
-                      <div class="col-md-2 col-sm-6">
-                      <div class="logobox card"> 
-                        <a class="Weblogo" href="https://www.python.org/" >
-                          <img class="weblogo2" alt="Python" src="/assets/images/skills/Python.svg" width="50x" height="50x" >
-                      </a> 
-                          <p class="text4">Python</p>
-                      </div>
-                      </div>
-                       
-                </div>
-                    
+</section>
 
-                
-            </div>
-        </div>
-    </section>
+<!-- PROJECTS -->
 
+<section id="projects">
 
-    <section class="blogs" id="blogs">
-        <div class="max-width">
-            <h2 class="title">Blogs</h2>
-            <div class="carousel">
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <div class="card mySlides">
-                    <img src="/assets/images/banner.webp" alt="blogs">
-                    <div class="box">
-                        <h3 class="text">Tech Blog</h3>
-                        <p class="text">My experience in web Developer a road I do not miss.</p>
-                    </div>
-                </div>
-                <div class="card mySlides">
-                    <img src="/assets/images/gacha.jpg" alt="blogs">
-                    <div class="box">
-                        <h3 class="text">Gacha World</h3>
-                        <p class="text">Gacha World is an anime-styled adventure and collecting RPG game</p>
-                    </div>
-                </div>
-                <div class="card mySlides">
-                    <img src="/assets/images/portrait-2.webp" alt="blogs">
-                    <div class="box">
-                        <h3 class="text">Web Dev </h3>
-                        <p class="text">A web developer is a programmer who develops World Wide Web applications using a client–server model.</p>
-                    </div>
-                </div>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
+<div class="container">
 
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-        </div>
-    </section>
+<h2 class="section-title">Projects</h2>
 
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact Us</h2>
-            <div class="contact-content">
-                <div class="center">
-                    <h3 class="text" >Get in Touch</h3>
-                    <p class="text">Interested in working? We should schedule a time to chat. I'll bring the coffee.</p>
-                </div>
-                <div class="column rigth">
-                    <form id="contact-form" action="#" method="post">
-                        <h3 class="text">Message</h3>
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name*" name="name">
-                                <span class="nameError">Please enter a name</span>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email*" name="email">
-                                <spam class="emailError">Please enter valid email</spam>
-                            </div>
-                        </div>
-                        <div class="field subject">
-                            <input type="text" placeholder="Subject*" name="subject">
-                            <spam class="subjectError">Please enter a subject</spam>
-                        </div>
-                        <div class="field textarea">
-                            <textarea placeholder="Message*" name="message"></textarea>
-                            <spam class="messageError">Please enter a message</spam>
-                        </div>
-                        <div class="button">
-                            <button type="submit" class="btn" id="submit">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="projects-grid">
 
-    <div class="wrapper">
-        <header>
-          <i class="bx bx-cookie"></i>
-          <h2>Cookies Consent</h2>
-        </header>
+<div class="project-card">
+
+<img src="assets/images/projects/web-development-banner-png.jpeg">
+
+<h3>ShopEasy</h3>
+
+<p>E-commerce platform with product management and relational database design.</p>
+
+</div>
+
+<div class="project-card">
+
+    <img src="assets/images/projects/pokedex.png">
     
-        <div class="data">
-          <p>Your name and first name front-end developer at LaSalle College sign this portfolio, do you want to confirm or decline the saving of your information?
-              </p>
-        </div>
+    <h3>Pokédex – First Generation</h3>
     
-        <div class="buttons">
-          <button class="button" id="acceptBtn">Confirm</button>
-          <button class="button" id="declineBtn">Decline</button>
-        </div>
-      </div>
-
+    <p>
+    A web application that allows users to search and explore the 151 Pokémon from the Kanto region.
+    </p>
     
-    <button id="scrollToTopBtn" class="scroll-to-top-btn" onclick="scrollToTop()"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
 
-    <footer>
-        <span>&copy; 2024 Lasalle College. All rights reserved. | Created by <a href="#">Betty Dang</a></span>
-    </footer>
+<div class="project-card">
+
+<img src="assets/images/projects/freelance.webp">
+
+<h3>Freelance Marketplace</h3>
+
+<p>Angular application with API integration for job posting and hiring.</p>
+
+</div>
 
 
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<div class="container">
+
+<h2 class="section-title">Tech Stack</h2>
+
+<div class="skills-grid">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Angular</div>
+<div class="skill">Java</div>
+<div class="skill">PHP</div>
+<div class="skill">SQL</div>
+<div class="skill">MongoDB</div>
+<div class="skill">Node.js</div>
+<div class="skill">Bootstrap</div>
+<div class="skill">Python</div>
+<div class="skill">Angular</div>
+<div class="skill">JDBC</div>
+<div class="skill">Linux</div>
+<div class="skill">iOS</div>
+<div class="skill">Windows</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="container contact">
+
+<h2>Contact</h2>
+
+<p>
+Interested in working together? Let's connect.
+</p>
+
+<a href="mailto:bettyx33_@gmail.com" class="btn">
+Send Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Betty Dang</p>
+
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    
+      new Typed("#typing-name", {
+        strings: ["Betty Dang"],
+        typeSpeed: 50,
+        showCursor: true,
+        cursorChar: "|"
+      });
+    
+    });
+    </script>
 </body>
 </html>
