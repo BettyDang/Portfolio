@@ -91,9 +91,9 @@
 
 <div class="hero-text">
 
-<h4>Hello, I'm</h4>
-<h1>
-    <span id="typing-name"></span>
+<h4>Hello, I'm an</h4>
+<h1 class="hero-title">
+    <span id="typing-title"></span>
 </h1>
 
 <p>
@@ -270,16 +270,20 @@ Send Email
 </footer>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-    
-      new Typed("#typing-name", {
-        strings: ["Betty Dang"],
-        typeSpeed: 50,
-        showCursor: true,
-        cursorChar: "|"
-      });
-    
+  document.addEventListener("DOMContentLoaded", function () {
+  
+    new Typed("#typing-title", {
+      strings: [
+        "Aspiring Software Developer",
+        "Analyst Enthusiast",
+      ],
+      typeSpeed: 100,
+      backSpeed: 30,
+      backDelay: 1500,
+      loop: true
     });
-    </script>
+  
+  });
+  </script>
 </body>
 </html>
