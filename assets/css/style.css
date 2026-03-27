@@ -190,6 +190,42 @@
     color:inherit;
     display:block;
     }
+
+
+   /* Current learning */
+
+   .learning-box{
+    margin-top:30px;
+    padding:25px;
+    border-radius:12px;
+    
+    background:linear-gradient(145deg, #1e293b, #0f172a);
+    
+    border:1px solid rgba(59,130,246,0.3);
+    
+    box-shadow:0 0 15px rgba(59,130,246,0.15);
+    
+    transition:all 0.3s ease;
+    }
+    
+    .learning-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(59,130,246,0.4);
+    border-color:#3b82f6;
+    }
+    
+    .learning-box h3{
+    margin-bottom:10px;
+    color:#3b82f6;
+    font-size:20px;
+    letter-spacing:0.5px;
+    }
+    
+    .learning-box p{
+    color:#cbd5e1;
+    font-size:18px;
+    }
+
   
   /* SKILLS */
   
