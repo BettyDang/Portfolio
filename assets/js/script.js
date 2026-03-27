@@ -1,6 +1,4 @@
-/* ===============================
-   CONTACT FORM VALIDATION
-=================================*/
+/*  CONTACT FORM VALIDATION */
 
 $(document).ready(function () {
 
@@ -46,9 +44,7 @@ $(document).ready(function () {
 });
 
 
-/* ===============================
-   EXPORT MESSAGE TO TXT
-=================================*/
+/* EXPORT MESSAGE TO TXT */
 
 function exportFormDataToTxt(name, email, subject, message) {
 
@@ -76,9 +72,7 @@ ${message}`;
 }
 
 
-/* ===============================
-   COOKIE CONSENT
-=================================*/
+/*COOKIE CONSENT*/
 
 const cookieBox = document.querySelector(".wrapper");
 const buttons = document.querySelectorAll(".button");
@@ -129,9 +123,7 @@ function checkCookie() {
 window.addEventListener("load", checkCookie);
 
 
-/* ===============================
-   SCROLL TO TOP BUTTON
-=================================*/
+/* SCROLL TO TOP BUTTON */
 
 const scrollBtn = document.getElementById("scrollToTopBtn");
 
@@ -153,9 +145,7 @@ function scrollToTop() {
 }
 
 
-/* ===============================
-   BLOG SLIDER
-=================================*/
+/* BLOG SLIDER */
 
 let slideIndex = 1;
 
